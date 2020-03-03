@@ -1,51 +1,53 @@
-body{
-    font-family: "Open Sans", sans-serif;
-    }
+body {
+  font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
-    font-family: "Lobster",cursive;
-}
+  font-family: "Lobster", cursive; }
 
 h2 {
-    color: blue;
-}
+  color: #3046C5; }
 
-header h2{
-    color:cornsilk;
-}
+header h2 {
+  color: #CEC8FF; }
 
-.site-footer{
-    background-image: linear-gradient(#CEC8FF,white);
-    padding-top:20px 0px;
-}
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding-top: 20px 0px; }
 
-.jumbotron{
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
-}
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: #CEC8FF; }
 
-.row-content{
-    min-height: 200px;
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-}
+.row-content {
+  min-height: 200px;
+  padding: 50px 0;
+  border-bottom: 1px ridge; }
 
-.navbar{
-    background-color: #901CAD;
-}
+.navbar {
+  background-color: #901CAD; }
 
-.tab-content{
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
-}
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
 
-.carousel-caption{
-    background-color: rgba(0,0,0,0.3);
-}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
 
-.carousel{
-    border : solid #5637DD;
-}
+.carousel {
+  border: solid #5637dd; }
+
+#carouselButton {
+  position: absolute;
+  right: 0px;
+  bottom: 0; }
+
+#reserveModal .modal-header {
+  background: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background: #901CAD;
+  color: white; }
